@@ -53,28 +53,16 @@
     "uniqCompNum": 1,
     "versionPublish": "5.8.0",
     "screenshot": "screenshot.png",
-    "cookiesAlert": {
-      "customDialogSelector": false,
-      "colorText": "#424a4d",
-      "colorBg": "#f3f3f3",
-      "colorButton": "#9133d4",
-      "rejectColor": "#ffffff",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacityOverlay": "100",
-      "text": "Utilizamos cookies para lhe proporcionar a melhor experiência.",
-      "textButton": "Aceitar",
-      "rejectText": "REJECT"
-    },
-    "cookiesAlertType": "3",
     "favicon": false,
-    "mbrsiteDomain": "sr63t8rley",
+    "mbrsiteDomain": "ttkfexbozk",
     "usedWebp": false,
-    "robotsSwitcher": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
-    "gdpr": false
+    "gdpr": false,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
